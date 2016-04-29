@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://dozer.sourceforge.net
+          http://dozer.sourceforge.net/schema/beanmapping.xsd">
+
+	<mapping>
+		<class-a>com.mlimavieira.model.SaleOrder</class-a>
+		<class-b>com.mlimavieira.dto.SaleOrderDto</class-b>
+		<field>
+			<a>customer.id</a>
+			<b>customerId</b>
+		</field>
+		<field>
+			<a>customer.name</a>
+			<b>customerName</b>
+		</field>
+	</mapping>
+
+	<mapping>
+		<class-a>com.mlimavieira.model.OrderLine</class-a>
+		<class-b>com.mlimavieira.dto.OrderLineDto</class-b>
+		<field>
+			<a>product.id</a>
+			<b>productId</b>
+		</field>
+		<field>
+			<a>product.price</a>
+			<b>price</b>
+		</field>
+
+	</mapping>
+
+
+</mappings> 
